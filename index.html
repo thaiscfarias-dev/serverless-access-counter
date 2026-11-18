@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Em breve | Contador de Acessos</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonte original -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main class="canvas">
+      <div class="streak"></div>
+
+      <div class="cosmic-container">
+        <div class="c-green"></div>
+        <div class="o-orange"></div>
+        <div class="s-pink"></div>
+        <div class="m-mint"></div>
+        <div class="i-orange"></div>
+        <div class="c-red"></div>
+      </div>
+
+      <div class="strawberry-container">
+        <p>marketing</p>
+      </div>
+
+      <div class="coming-soon">
+        <p>em breve</p>
+      </div>
+
+      <!-- Contador de acessos -->
+
+      <section class="stats-section">
+        <p class="stats-heading">ALCANCE DA CAMPANHA</p>
+
+        <div class="stats-container">
+          <div class="stat-card">
+            <span class="stat-icon">✧</span>
+            <span class="stat-number" id="unique-visitors">—</span>
+            <span class="stat-label">VISITANTES ÚNICOS</span>
+          </div>
+
+          <div class="stat-card">
+            <span class="stat-icon">◉</span>
+            <span class="stat-number" id="total-visits">—</span>
+            <span class="stat-label">TOTAL DE VISITAS</span>
+          </div>
+
+          <div class="stat-card">
+            <span class="stat-icon">↻</span>
+            <span class="stat-number" id="returning-visits">—</span>
+            <span class="stat-label">VISITAS RECORRENTES</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Bibliotecas utilizadas na animação -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://assets.codepen.io/16327/SplitText3.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
