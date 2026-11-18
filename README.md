@@ -1,4 +1,4 @@
-# Serverless Access Counter | COSMIC MARKETING
+# Serverless Access Counter 
 
 Projeto desenvolvido como parte do Trabalho de Conclusão de Curso da **Escola da Nuvem**, com o objetivo de demonstrar uma aplicação web utilizando arquitetura Serverless na AWS.
 
