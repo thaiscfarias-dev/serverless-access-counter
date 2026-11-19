@@ -1,4 +1,4 @@
-# Serverless Access Counter | COSMIC MARKETING
+# Serverless Access Counter 
 
 Projeto desenvolvido como parte do Trabalho de Conclusão de Curso da **Escola da Nuvem**, com o objetivo de demonstrar uma aplicação web utilizando arquitetura Serverless na AWS.
 
@@ -143,7 +143,7 @@ A estrutura poderá evoluir conforme a implementação dos serviços AWS e do ba
 ## 7. Status do desenvolvimento
 
 - [x] Desenvolvimento inicial da página de campanha.
-- [x] Criação da identidade visual COSMIC STRAWBERRY.
+- [x] Criação da identidade visual COSMIC MARKETING.
 - [x] Implementação das animações com GSAP.
 - [x] Criação dos componentes visuais dos indicadores.
 - [x] Implementação inicial da identificação de navegadores por cookie.
