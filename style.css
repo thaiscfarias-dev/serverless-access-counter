@@ -336,7 +336,8 @@ body {
   }
 
   #access-count {
-    font-size: 27px;
+    font-size: clamp(32px, 9vw, 40px);
+    letter-spacing: clamp(2px, 1vw, 5px);
   }
 
   .stats-section {
@@ -384,6 +385,10 @@ body {
 @media (max-width: 360px) {
   .cosmic-container {
     zoom: 0.55;
+  }
+
+  #access-count {
+    font-size: clamp(29px, 8vw, 34px);
   }
 
   .stats-container {
